@@ -84,6 +84,12 @@ orders (order_id is the PRIMARY KEY. customer_id and product_id are the FOREIGN 
 
 - The **top 5 revenue-generating** products are Smartwatch, Wireless Earbuds, Laptop Backpack, Hair Dryer, and Formal Shoes.
 
+---
+
+### Business Impact
+
+This analysis provides visibility into customer behavior, product performance, category performance, and city-wise revenue contribution. The insights can help stakeholders understand key revenue drivers and monitor overall business performance.
+
 
   
 
