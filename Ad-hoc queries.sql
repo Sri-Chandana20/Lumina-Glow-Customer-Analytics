@@ -79,7 +79,7 @@ FROM
     products p ON p.product_id = o.product_id
 GROUP BY c.customer_id, c.customer_name
 ORDER BY total_spent
-LIMIT 5;
+LIMIT 5 DESC;
 
 -- 6. City-wise total revenue
 
