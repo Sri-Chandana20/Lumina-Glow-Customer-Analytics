@@ -198,7 +198,7 @@ FROM
         JOIN
     orders o ON c.customer_id = o.customer_id
 GROUP BY c.customer_id , c.signup_date
-HAVING MIN(o.order_date) BETWEEN c.signup_date AND DATE_ADD(c.signup_date, INTERVAL 30 DAY);
+HAVING MIN(o.order_date) <= DATE_ADD(c.signup_date, INTERVAL 30 DAY);
 
 -- 16. Total quantity sold for each product.
 
