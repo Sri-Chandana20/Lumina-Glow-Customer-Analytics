@@ -1,5 +1,5 @@
 /*
-1. Customer Performance Analysis
+1. Customer Analysis
 - Customers with no orders
 - New customers per month
 - First order within 30 days of signup
