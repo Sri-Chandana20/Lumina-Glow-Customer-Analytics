@@ -19,7 +19,7 @@
 - Average order value (AOV)
 */
 
--- 1. Customers with no orders
+-- **1. Customers with no orders**
 
 SELECT customer_id
 FROM customers
