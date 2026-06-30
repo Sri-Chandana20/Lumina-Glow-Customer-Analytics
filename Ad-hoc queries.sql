@@ -2,7 +2,7 @@
 
 1. Customer Acquisition Analysis
 	a. New customers per month
-	b. ustomer acquisition by channel
+	b. Customer acquisition by channel
 	c. Customers with no orders
 
 2. Customer Activation & Retention Analysis
@@ -79,7 +79,7 @@ This query uses a LEFT JOIN to compare customers with orders.
 It returns customers whose order ID is NULL, meaning they signed up but never placed an order.
 
 Every registered customer placed at least one order. 
-This indicates strong initial customer engagement and suggests successfull conversion of signups into buyers.
+This indicates strong initial customer engagement and suggests successful conversion of signups into buyers.
 */
 
 -- 2. Customer Activation & Retention Analysis
@@ -174,7 +174,7 @@ FROM one_time_customers;
 This query identifies customers who placed exactly one order and counts how many such customers exist.
 
 There are 35 one-time buyers. 
-These customers represent an opportunity for the business to increase repeat purchases through personalized offers, or follow-up marketing campaigns.
+These customers represent an opportunity for the business to increase repeat purchases through personalized offers or follow-up marketing campaigns.
 */
 
 -- 3. Customer Value Analysis
@@ -190,7 +190,7 @@ FROM
     products p ON o.product_id = p.product_id;
 
 /*
-This query calculates the total revenue by multiplying product price and quantity for every order. 
+This query calculates the total revenue by multiplying the product price and quantity for every order. 
 It then divides the total revenue by the number of unique orders to calculate the average order value.
 
 The Average Order Value is INR 936. 
