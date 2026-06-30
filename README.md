@@ -4,7 +4,7 @@
 
 <h1 align="center"> Customer Analytics using MySQL | Ad Hoc Business Insights </h1>
 
-### Project Overview
+### Overview
 
 This project analyzes six months of customer and sales data for **Lumina Glow**, a beauty startup. The objective is to evaluate customer acquisition, customer activation, early retention, customer value, and product performance using SQL.
 
@@ -12,7 +12,14 @@ A synthetic relational dataset was created to simulate a real-world e-commerce e
 
 ---
 
-### Dataset Overview
+### Business Problem
+
+**Lumina Glow** has been operating for six months across major Indian cities. As the customer base continues to grow, the management wants to evaluate the company's early business performance and customer behavior.
+
+---
+
+### Dataset Overviee
+
 **Tables:**
 
 - customers (customer_id, customer_name, city, age, gender, signup_date, acquisition_channel)
@@ -96,39 +103,68 @@ Products that were never ordered
 Monthly revenue trend
 
 
-[Check out the Data import queries here](https://github.com/Sri-Chandana20/SQL-Consumer-Goods-Sales-Analysis/blob/main/Data%20import.sql)
+[Check out the Data import queries here](https://github.com/Sri-Chandana20/Customer-Analytics-for-Lumina-Glow/blob/main/Data%20Import.sql)
 
-[Check out the Ad-hoc queries here](https://github.com/Sri-Chandana20/SQL-Consumer-Goods-Sales-Analysis/blob/main/Ad-hoc%20queries.sql)
+[Check out the Ad-hoc queries here](https://github.com/Sri-Chandana20/Customer-Analytics-for-Lumina-Glow/blob/main/Ad-hoc%20queries.sql)
 
 ---
 
 ### Tools Used
 
-**MySQL:** Database storage (CREATE TABLE with data types like DECIMAL, VARCHAR, DATE) and querying (JOINS, GROUP BY, HAVING, LIMIT).
+- **MySQL**
+
+- **SQL** (Joins, Aggregate Functions, CTEs, Subqueries, Date Functions, GROUP BY, HAVING, LIMIT)
+
+---
+
+### KPIs calculated
+
+- New Customers
+
+- Average Days to First Purchase
+
+- Repeat Customers
+  
+- One-Time Customers
+  
+- Average Order Value (AOV)
+  
+- Monthly Revenue
 
 ---
 
 ### Key Insights
 
-- On average, **more than 5 new customers joined each month**, with April having the highest number (16 customers).
+* **April recorded the highest customer acquisition**, with 28 new customer signups, indicating a significant increase in customer growth during that month.
 
-- There are **34 repeat customers.** Also, 26 customers have purchased from more than one product category.
+* **Organic Search and Google Ads were the most effective acquisition channels**, together contributing nearly 50% of all new customers.
 
-- **Smartwatch** generated the **highest revenue** (132,981), while Cotton T-Shirt generated the lowest revenue (2,397).
+* **More than half of the customers became repeat buyers**, demonstrating positive early customer retention during the first six months of business.
 
-- **Electronics** is the **highest revenue-generating category** (374,406), whereas Apparel generated the lowest revenue (75,263).
+* **Skincare was the highest-performing product category**, generating the largest share of revenue, while Hydrating Serum emerged as the top revenue-generating product.
 
-- **London** generated the **highest revenue** (210,008), while Chennai generated 86,568.
-
-- **Laptop Backpack** is the **best-selling** product by quantity (33 units sold).
-
-- The **top 5 revenue-generating** products are Smartwatch, Wireless Earbuds, Laptop Backpack, Hair Dryer, and Formal Shoes.
+* **Monthly revenue showed a consistent upward trend**, reaching its highest value in June, suggesting steady business growth after the company's launch.
 
 ---
 
-### Business Impact
+### Recommendations
 
-This analysis provides visibility into customer behavior, product performance, category performance, and city-wise revenue contribution. The insights can help stakeholders understand key revenue drivers and monitor overall business performance.
+* **Increase investment in high-performing acquisition channels** such as Organic Search and Google Ads, as they contributed the largest share of new customers.
+
+* **Analyze the factors behind April's customer growth** and replicate successful marketing campaigns or promotional strategies in future months to sustain customer acquisition.
+
+* **Implement loyalty programs and personalized offers** to encourage one-time buyers to make repeat purchases and improve customer retention.
+
+* **Prioritize high-performing products and categories** by ensuring adequate inventory for skincare products, especially the Hydrating Serum, while promoting lower-performing products through targeted campaigns.
+
+* **Monitor monthly revenue and customer metrics regularly** using dashboards to identify trends early and support data-driven decisions related to marketing, inventory planning, and business growth.
+
+---
+
+### Acknowledgments
+
+Special thanks to **Dhaval Patel**, **Hemanand Vadivel**, and **Codebasics** for inspiring this project through their data analytics learning content. Their guidance motivated me to design a realistic synthetic dataset, which provided valuable hands-on practice in database design, data modeling, SQL, and customer analytics.
+
 
 
   
