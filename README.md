@@ -1,4 +1,4 @@
-<h1 align="center"> SQL-Based Consumer Goods Sales Analysis | Ad Hoc Business Insights</h1>
+<h1 align="center"> Customer Analytics for Lumina Glow using MySQL | Ad Hoc Business Insights</h1>
 
 ### Analysis Objective
 - This project analyzes a consumer goods dataset containing customers, orders, and products. The objective was to perform ad-hoc SQL analysis to derive business insights such as customer, product performance, and business performance analysis.
