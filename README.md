@@ -6,7 +6,7 @@
 
 ### Overview
 
-This project analyzes six months of customer and sales data for **Lumina Glow**, a beauty startup. The objective is to evaluate customer acquisition, customer activation, early retention, customer value, and product performance using SQL.
+This project analyzes eight months of customer and sales data for **Lumina Glow**, a beauty startup. The objective is to evaluate customer acquisition, customer activation, early retention, customer value, and product performance using SQL.
 
 A synthetic relational dataset was created to simulate a real-world e-commerce environment with customers, products, and orders tables. The analysis was performed using MySQL by applying joins, aggregate functions, Common Table Expressions (CTEs), subqueries, date functions, and grouping operations to answer business questions and generate actionable insights.
 
