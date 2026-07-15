@@ -41,7 +41,7 @@ orders (order_id is the PRIMARY KEY. customer_id and product_id are the FOREIGN 
 ### Project Workflow
 
 **1. Business Scenario Definition:**
-Designed a hypothetical business scenario for **Lumina Glow**, a beauty startup, to analyze customer acquisition, retention, product performance, and business growth during its first six months of operations.
+Designed a hypothetical business scenario for **Lumina Glow**, a beauty startup, to analyze customer acquisition, retention, product performance, and business growth during its first eight months of operations.
 
 **2. Dataset Generation:**
 Generated realistic synthetic datasets using ChatGPT by defining business rules such as customer signup dates, acquisition channels, product catalog, and order transactions to simulate a real-world e-commerce environment.
