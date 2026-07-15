@@ -14,7 +14,7 @@ A synthetic relational dataset was created to simulate a real-world e-commerce e
 
 ### Business Problem
 
-**Lumina Glow** has been operating for six months across major Indian cities. As the customer base continues to grow, the management wants to evaluate the company's early business performance and customer behavior.
+**Lumina Glow** has been operating for eight months across major Indian cities. As the customer base continues to grow, the management wants to evaluate the company's early business performance and customer behavior.
 
 ---
 
