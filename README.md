@@ -41,10 +41,10 @@ orders (order_id is the PRIMARY KEY. customer_id and product_id are the FOREIGN 
 ### Project Workflow
 
 **1. Business Scenario Definition:**
-Designed a hypothetical business scenario for **Lumina Glow**, a beauty startup, to analyze customer acquisition, retention, product performance, and business growth during its first eight months of operations.
+Designed a hypothetical business scenario for **Lumina Glow**, a beauty startup, to analyze customer acquisition, retention, product performance, and business growth during its first six months of operations.
 
 **2. Dataset Generation:**
-Generated realistic synthetic datasets using ChatGPT by defining business rules such as customer signup dates, acquisition channels, product catalog, and order transactions to simulate a real-world e-commerce environment.
+Generated realistic synthetic datasets using AI by defining business rules such as customer signup dates, acquisition channels, product catalog, and order transactions to simulate a real-world e-commerce environment.
 
 **3. Database Creation**
 - Imported the CSV datasets into MySQL using the Import Wizard.
@@ -101,7 +101,7 @@ Monthly revenue trend
 
 [Check out the Data import queries here](https://github.com/Sri-Chandana20/Customer-Analytics-for-Lumina-Glow/blob/main/Data%20Import.sql)
 
-[Check out the Ad-hoc queries here](https://github.com/Sri-Chandana20/Customer-Analytics-for-Lumina-Glow/blob/main/Ad-hoc%20queries.sql)
+[Check out the ad hoc queries here](https://github.com/Sri-Chandana20/Customer-Analytics-for-Lumina-Glow/blob/main/Ad-hoc%20queries.sql)
 
 ---
 
