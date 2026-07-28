@@ -31,7 +31,7 @@
 
 SELECT 
     MONTHNAME((signup_date)) AS 'Month',
-    COUNT(DISTINCT customer_id) AS customers
+    COUNT(customer_id) AS customers
 FROM
     customers
 GROUP BY MONTHNAME((signup_date))
@@ -50,7 +50,7 @@ The business can investigate what marketing activities or campaigns were running
 
 SELECT 
     DISTINCT acquisition_channel,
-    COUNT(DISTINCT customer_id) AS customers
+    COUNT(customer_id) AS customers
 FROM
     customers
 GROUP BY acquisition_channel
