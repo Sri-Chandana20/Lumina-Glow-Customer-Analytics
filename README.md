@@ -50,14 +50,10 @@ Generated realistic synthetic datasets using ChatGPT by defining business rules 
 - Imported the CSV datasets into MySQL using the Import Wizard.
 - Defined primary key and foreign key constraints while creating the database tables.
 
-**4. Database Modeling**
-- Designed an Entity Relationship (EER) diagram.
-- Established one-to-many relationships between Customers, Orders, and Products to create a normalized relational database.
-
-**5. Data Analysis:** 
+**4. Data Analysis:** 
 Wrote SQL queries using joins, aggregate functions, Common Table Expressions (CTEs), subqueries, and date functions to answer business questions related to customer acquisition, activation, retention, customer value, product performance, and business performance.
 
-**6. Business Insights:**
+**5. Business Insights:**
 Interpreted the query results to generate business insights and recommendations that could support decision-making for marketing, customer engagement, inventory planning, and revenue growth.
 
 ---
